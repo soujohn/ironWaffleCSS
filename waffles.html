@@ -10,17 +10,11 @@
 </script>
 <![endif]-->
 
-<style>
-/*these styles were included with the W3C's sample code for the HTML5 skeleton*/
-	body {font-family: Verdana, sans-serif; font-size:0.8em;}
-	header, nav, section, article, footer
-	{border:1px solid gray; margin:5px; padding:8px;}
-	nav ul {margin:0; padding:0;}
-	nav ul li {display:inline; margin:5px;}
-</style>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
+<main>
 
 <!-- The <header> element specifies a header for a document or section. The <header> element should be used as a container for introductory content. -->
 <header>
@@ -36,8 +30,13 @@
 </nav>
 
 <section>
-	<img src="waffle.jpg" />
-	<blockquote>"You can keep the batter covered in the fridge for up to a week. Just be sure to whisk well before using again. You may also use whole wheat flour for this recipe."</blockquote>
+	<img src="img/waffle.jpg" />
+	<blockquote cite="http://allrecipes.com/Recipe/Waffles-I/Detail.aspx">"You can keep the batter covered in the fridge for up to a week. Just be sure to whisk well before using again. You may also use whole wheat flour for this recipe."
+		<p>
+			&mdash;Anonymous<br />
+			<a href="http://allrecipes.com">Allrecipes.com</a>
+		</p>
+	</blockquote>
 </section>
 <section>
 
@@ -77,5 +76,6 @@
 <p>&copy; 2014 The Iron Waffle. All rights reserved.</p>
 </footer>
 
+</main>
 </body>
 </html>
